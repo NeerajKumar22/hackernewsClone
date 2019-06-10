@@ -1,8 +1,88 @@
-body {
-    h1 {
-        color: aqua;
-    }
-    h2 {
-        color: red;
-    }
+.container{
+    margin: .2rem 7rem;
+    background-color: #f6f6ef;
+}
+
+// CSS FOR HEADER 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ef6537;
+    align-items: center;
+    height: 2rem;
+}
+
+.header-left{
+    display: flex;
+}
+
+.header-left a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.header-left a img{
+    border: 1px solid white;
+    margin-top: 4px;
+    margin-left: -3px;
+}
+.header-left-content{
+    padding: 5px;
+}
+
+.header-right a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+// CSS FOR FOOTER
+
+hr{
+    border: 1px solid #ef6537;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-search{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.morelink{
+    text-decoration: none;
+    color: black;
+}
+
+// CSS for LOGIN AND CREATE ACCOUNT
+
+
+// CSS for ITEMS
+.posts{
+    height: 950px;
+    overflow: hidden;
+    line-height: 2;
+}
+
+.posts-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.posts-title{
+    margin-right: 60px;
 }
